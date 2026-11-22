@@ -1,0 +1,12 @@
+/* ---------- Animations ---------- */
+.view:not([hidden]){animation:viewIn .35s ease}
+.view.leave{animation:viewOut .13s ease forwards}
+.mgp:not([hidden]){animation:viewIn .3s ease}
+.line.out{overflow:hidden;animation:lineOut .26s ease forwards}
+@keyframes viewIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes viewOut{to{opacity:0;transform:translateY(-8px)}}
+@keyframes lineOut{from{opacity:1;transform:none;max-height:120px}to{opacity:0;transform:translateX(36px);max-height:0;padding-top:0;padding-bottom:0;border-bottom-width:0}}
+.swap>*{animation:tileIn .4s cubic-bezier(.2,.8,.3,1) both;animation-delay:calc(var(--i,0)*35ms)}
+@keyframes tileIn{from{opacity:0;transform:translateY(18px) scale(.96)}to{opacity:1;transform:none}}
+.sb-foot{margin-top:auto}
+.mini .sales{display:none}
