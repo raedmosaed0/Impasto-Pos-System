@@ -1,0 +1,30 @@
+/* ---------- Search bars ---------- */
+input[type=search],.md input[type=search],.tools input[type=search],.page .srch{-webkit-appearance:none;appearance:none;height:42px;padding:0 18px 0 44px!important;border:1px solid var(--line);border-radius:999px;background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2349352b' stroke-opacity='.55' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:16px center;background-size:18px;font-size:.9rem;font-weight:500;transition:border-color .2s,box-shadow .2s}
+input[type=search]::placeholder{color:rgba(73,53,43,.45);font-weight:500}
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;display:none}
+.tools{align-items:center}
+.tools input[type=search]{flex:1 1 240px;max-width:380px;min-width:180px}
+.cat{height:42px;padding:0 18px}
+.page .srch{max-width:380px;margin-bottom:14px}
+.invbar .srch{margin:0}
+/* ---------- Order totals ---------- */
+.sums{padding:12px 18px 8px;gap:0;font-size:.92rem}
+.sums div{min-height:32px}
+.sums div>span:first-child{opacity:.8}
+.sums input{width:76px;height:32px;padding:0 10px;font-weight:600}
+.sums .tot{margin-top:8px;padding-top:10px;border-top:1px dashed var(--line);min-height:0}
+.sums .tot span:first-child{opacity:1}
+.acts,.acts{grid-template-columns:1fr 2fr;gap:10px;padding:6px 18px 16px}
+/* ---------- Discount control ---------- */
+.sums .discrow{gap:10px}
+.sums .discctl,.sums .chips{min-height:0;justify-content:flex-end;gap:6px}
+.sums .discctl{gap:8px}
+.chips button{height:30px;padding:0 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-weight:600;font-size:.75rem;transition:background .2s,color .2s,border-color .2s}
+.chips button:hover{border-color:var(--pri);color:var(--pri)}
+.chips button.on,.chips button.on:hover{background:var(--pri);border-color:var(--pri);color:#fff}
+.pct{position:relative;display:block}
+.pct input{width:64px!important;padding:0 24px 0 10px!important;text-align:right;-moz-appearance:textfield}
+.pct input::-webkit-outer-spin-button,.pct input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.pct i{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-style:normal;font-size:.8rem;font-weight:700;opacity:.55;pointer-events:none}
+.sums .dcamt{color:var(--ok);font-weight:600}
+.sums .dcamt span:first-child{opacity:1}
