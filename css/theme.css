@@ -1,0 +1,6 @@
+[data-theme=dark]{color-scheme:dark;--bg:#17120f;--cream:#2b221d;--card:#221b17;--text:#f3e9df;--line:rgba(243,233,223,.16);--ok:#5cc489}
+[data-theme=dark] .seg button.on,[data-theme=dark] .toast{color:#17120f}
+[data-theme=dark] .stt.ok,[data-theme=dark] .inv-paid{background:rgba(92,196,137,.18)}
+[data-theme=dark] .stt.low{background:rgba(224,165,38,.2);color:#f0c15a}
+[data-theme=dark] .stt.out{background:rgba(240,90,40,.2);color:#ff8a60}
+@media print{body{background:#fff!important}}
