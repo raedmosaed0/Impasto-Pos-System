@@ -60,9 +60,7 @@ Some features may be limited to demonstration functionality and may not be conne
 
 ## Live Demo
 
-Explore the IMPASTO POS experience:
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-F05A28?style=for-the-badge&labelColor=0A0F0A)](https://impasto-pos-sestym.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-F05A28?style=for-the-badge&labelColor=0A0F0A)](https://impasto-pos-system.vercel.app/)
 
 ## Project Vision
 
